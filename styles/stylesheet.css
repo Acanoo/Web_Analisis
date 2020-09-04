@@ -1,0 +1,152 @@
+/*propiedades creadas por mí mismo*/
+h1.titulo {
+    text-shadow: 2px 2px 4px black;
+    font-size: 60px;
+    font-family: Arial;
+    font-style: italic;
+    text-align: center;
+    color: whitesmoke;
+}
+h3.titulo{
+    text-shadow: 2px 2px 4px black;
+    font-family: Arial;
+    font-style: italic;
+    text-align: center;
+    color: whitesmoke;
+}
+h5.titulo{
+    text-shadow: 2px 2px 4px black;
+    font-size: 40px;
+    font-family: Arial;
+    font-style: normal;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+hr.separa{
+    color: black;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.logo{
+    float: left;
+  margin-right: 20px;
+}
+
+.titarticulo {
+    font-size: 15px;
+}
+
+.contenido {
+    font-size: 30;
+    font-family: Courier New;
+}
+
+.informacion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.enlaceinfo {
+    font-family: Arial;
+    margin: 5px;
+}
+.pago{
+    width: 50%;
+}
+
+.pie {
+    font-size: 20;
+    font-family: helvetica;
+    font-variant: small-caps;
+}
+
+/*propiedades únicas*/
+#cabecera {
+    border-radius: 20px;
+    background: #2ef3e3;
+    background: chocolate;
+    padding: 20px;
+    /* vertical-align: middle; */
+}
+#cabeceralogin {
+    border-radius: 20px;
+    background: #2ef3e3;
+    background: chocolate;
+    padding: 20px;
+    /* vertical-align: middle; */
+    height: 200px;
+}
+
+#menu {
+    border-bottom: 3px solid black;
+    border-right: 3px solid black ;
+    border-radius: 15px;
+    top: 290px;
+    background: wheat;
+    padding: 5px 15px;
+    text-align-last: right;
+}
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+    vertical-align: middle;
+}
+
+#seccion {
+    float: left;
+    width: 65%;
+    height: 1000px;
+    margin-top: 10px;
+}
+
+#columna {
+    float: right;
+    width: 30%;
+    margin: 10px 0px;
+    padding: 20px;
+    background: #aaaaaa;
+    height: 1000px;
+    border: black 1px solid;
+}
+
+#fondo {
+    clear: both;
+    bottom: 0px;
+    text-align: center;
+    padding: 0px;
+    /* border-top: 2px solid #999999; */
+}
+
+/*propiedades de etiquetas propias del html*/
+article {
+    padding: 1px;
+    background: gainsboro;
+    border: 1px solid #999999;
+}
+
+a.sinsub:link {
+    text-decoration: none;
+}
+
+body {
+    color: black;
+    background: floralwhite;
+    margin: 5px;
+    padding: 20px;
+}
+
+time {
+    width: 100%;
+    background: gray;
+}
